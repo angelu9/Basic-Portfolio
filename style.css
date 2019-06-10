@@ -2,8 +2,14 @@
     background-color: #ffffff;
     max-width: 960px;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid 1px;
     padding-bottom: 100px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+}
+
+nav {
+    margin: 20px;
 }
 
 
@@ -26,12 +32,107 @@ h1 {
     color: white;
     background: #4aaaa5;
     width: 230px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 120px;
+    left: 110px;
 }
 
 h2 {
     color: #4aaaa5;
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #cccccc;
 }
+
+p {
+    font-size: 14px;
+    line-height: 2em;
+}    
 
 img {
     float: left;
+    margin: 20px;
+}
+
+.box { 
+    background-image: url(assets/images/interlaced.png);
+    padding: 80px; 
+} 
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-top: 8px solid #4aaaa5;
+    background: gray;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+.image-container {
+    max-width: 960px;
+    padding-bottom: 500px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.Hangman {
+    background: #4aaaa5;
+    position: relative;
+    top: 200px;
+    padding: 20px;
+    width: 160px;
+    left: 23px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}
+
+.rpg-game {
+    background: #4aaaa5;
+    position: relative;
+    top: 200px;
+    padding: 20px;
+    width: 160px;
+    left: 67px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}
+
+.trivia-game {
+    background: #4aaaa5;
+    position: relative;
+    top: 200px;
+    padding: 20px;
+    width: 160px;
+    left: 10px;
+    bottom: 100px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+
+
+button {
+    background: #4aaaa5;
+    color: #ffffff;
 }
